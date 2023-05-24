@@ -11,7 +11,7 @@ class Movie(models.Model):
     duration = models.IntegerField()
     price = models.FloatField()
     created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(null=True)
+    updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self) -> str:
         return self.title
