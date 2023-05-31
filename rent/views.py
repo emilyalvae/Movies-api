@@ -5,4 +5,4 @@ from rest_framework import viewsets, permissions
 class RentViewSet(viewsets.ModelViewSet):
     queryset = Rent.objects.all()
     serializer_class = RentSerializer
-    permission_classes = [permissions.IsAuthenticated]
+    #permission_classes = [permissions.IsAuthenticated]
