@@ -26,9 +26,9 @@ Estamos usando mysql por defecto.
 ## 5. Configuramos las variables de nuestro proyecto
 
 '''python
-MYSQLDATABASE=''
-MYSQLUSER=''
-MYSQLPASSWORD=''
-MYSQLHOST=''
-MYSQLPORT=''
+MYSQLDATABASE=
+MYSQLUSER=
+MYSQLPASSWORD=
+MYSQLHOST=
+MYSQLPORT=
 '''
